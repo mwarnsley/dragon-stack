@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Dragon trading game",
+  "main": "index.js",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.1"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
